@@ -16,6 +16,7 @@ class assignment{
        this.content = content;
    }
 }
+db.push(new assignment(1234, "tipo", "The Bunk", "content"));
 
 router.get('/', function (req, res) {
     res.json({message: 'welcome to the test!'});    
